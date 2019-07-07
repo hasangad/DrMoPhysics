@@ -3,11 +3,9 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>
-أكاديمية د محمد الربعي للفيزياء  </name>
-    <description>
-تبسيط علوم الفيزياء   </description>
-    <author email="hasangad.com@gmail.com" href="https://DrMoPhysics.com/">
+    <name>أكاديمية د محمد الربعي للفيزياء  </name>
+    <description>تبسيط علوم الفيزياء   </description>
+    <author email="hasangad.com@gmail.com" href="https://drophysics.com/">
     HasanGad.com Team
   </author>
     <icon src="www/icon.png" />

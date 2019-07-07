@@ -2,14 +2,11 @@ var app = {
 	initialize: function() {
 	  this.bindEvents();
 	},
-	
 	bindEvents: function() {
 	  document.addEventListener('deviceready', this.onDeviceReady, false);
 	},
-	
 	onDeviceReady: function() {
-	  alert("Device IS ready");
-  
+  	  alert("Device IS ready");
 	  function checkConnection() {
 		var networkState = navigator.connection.type;
 		var states = {};
@@ -33,5 +30,5 @@ var app = {
 	  }
 	  checkConnection();
 	 
-	}
+	} 
 };
