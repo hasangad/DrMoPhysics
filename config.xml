@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.DrMoPhysics" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.DrMoPhysics" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>أكاديمية د محمد الربعي للفيزياء  </name>
   <description>تبسيط علوم الفيزياء   </description>
   <author email="hasangad.com@gmail.com" href="https://drophysics.com/">
@@ -44,6 +44,7 @@
   
  <access origin="*"/>
   <access origin="https://www.drmophysics.com*"/>
+  <allow-intent href="*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
@@ -52,5 +53,12 @@
   <allow-intent href="geo:*"/>
   <platform name="android">
     <allow-intent href="market:*"/>
+    <allow-intent href="*" />
+      <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
   </platform>
 </widget>
