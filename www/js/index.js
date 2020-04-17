@@ -29,7 +29,7 @@ var app = {
 					.fadeIn(1000);
 			} else {
 
-				var ref = cordova.InAppBrowser.open('https://DrMoPhysics.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=no' , 'zoom=no');
+				var ref = cordova.InAppBrowser.open('https://DrMoPhysics.com/', '_self', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=no' , 'zoom=no');
 					//ref.addEventListener('loadstart', myCallback);
 				 // ref.removeEventListener('loadstart', myCallback);
 
