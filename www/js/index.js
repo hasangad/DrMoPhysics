@@ -30,8 +30,8 @@ var app = {
 			} else {
 
 				var ref = cordova.InAppBrowser.open('https://DrMoPhysics.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=no' , 'zoom=no');
-					ref.addEventListener('loadstart', myCallback);
-				  ref.removeEventListener('loadstart', myCallback);
+					//ref.addEventListener('loadstart', myCallback);
+				 // ref.removeEventListener('loadstart', myCallback);
 
 				  $(".skip_to_home")
 				  .click(function() {
