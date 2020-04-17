@@ -41,7 +41,6 @@
     <splash qualifier="land-xxhdpi" src="www/images/splash.png"/>
     <preference name="SplashScreen" value="screen"/>
   </platform>
-  
  <access origin="*"/>
   <!--<access origin="https://www.drmophysics.com*"/>-->
   <allow-intent href="*" />
