@@ -43,7 +43,7 @@
   </platform>
   
  <access origin="*"/>
-  <access origin="https://www.drmophysics.com*"/>
+  <!--<access origin="https://www.drmophysics.com*"/>-->
   <allow-intent href="*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
